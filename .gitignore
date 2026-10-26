@@ -1,0 +1,13 @@
+# Real cytometry data and generated analyses stay outside version control by default.
+/data/fcs/*
+!/data/fcs/.gitkeep
+/results/
+/metadata.csv
+*.fcs
+*.FCS
+*.rds
+*.RData
+*.Rhistory
+.Rproj.user/
+.DS_Store
+Thumbs.db
